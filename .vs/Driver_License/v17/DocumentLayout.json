@@ -1,0 +1,406 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PRN212\\Driver_License\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\selectlicensetypewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\selectlicensetypewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\selectlicensetypewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\selectlicensetypewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\selectexamwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\selectexamwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\selectexamwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\selectexamwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\licensedetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\licensedetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\examdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\examdetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\listexamwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\listexamwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\listexamwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\listexamwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\doexamwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\doexamwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\doexamwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\doexamwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\signupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\signupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\listquestionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\listquestionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\practicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\practicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\listaccountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\listaccountwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\listaccountwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\listaccountwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\listsettingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\listsettingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\examdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\examdetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\models\\supportlicensecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\models\\supportlicensecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\driver_license.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\driver_license.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|d:\\prn212\\driver_license\\driver_license\\penalizewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16304DF2-F6F1-45A0-B1CE-351E5E8615CD}|Driver_License\\Driver_License.csproj|solutionrelative:driver_license\\penalizewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 158,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 268,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SelectLicenseTypeWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\SelectLicenseTypeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Driver_License\\SelectLicenseTypeWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\SelectLicenseTypeWindow.xaml.cs",
+              "RelativeToolTip": "Driver_License\\SelectLicenseTypeWindow.xaml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T01:18:36.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SelectLicenseTypeWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\SelectLicenseTypeWindow.xaml",
+              "RelativeDocumentMoniker": "Driver_License\\SelectLicenseTypeWindow.xaml",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\SelectLicenseTypeWindow.xaml",
+              "RelativeToolTip": "Driver_License\\SelectLicenseTypeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T01:17:57.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LicenseDetailWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\LicenseDetailWindow.xaml",
+              "RelativeDocumentMoniker": "Driver_License\\LicenseDetailWindow.xaml",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\LicenseDetailWindow.xaml",
+              "RelativeToolTip": "Driver_License\\LicenseDetailWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T01:14:51.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SelectExamWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\SelectExamWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Driver_License\\SelectExamWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\SelectExamWindow.xaml.cs",
+              "RelativeToolTip": "Driver_License\\SelectExamWindow.xaml.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAYwCUAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T01:12:12.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SelectExamWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\SelectExamWindow.xaml",
+              "RelativeDocumentMoniker": "Driver_License\\SelectExamWindow.xaml",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\SelectExamWindow.xaml",
+              "RelativeToolTip": "Driver_License\\SelectExamWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T01:11:46.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListExamWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\ListExamWindow.xaml",
+              "RelativeDocumentMoniker": "Driver_License\\ListExamWindow.xaml",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\ListExamWindow.xaml",
+              "RelativeToolTip": "Driver_License\\ListExamWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T01:10:49.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ListQuestionWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\ListQuestionWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Driver_License\\ListQuestionWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\ListQuestionWindow.xaml.cs",
+              "RelativeToolTip": "Driver_License\\ListQuestionWindow.xaml.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAwwG4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T00:46:18.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Driver_License\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Driver_License\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwC0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T00:40:12.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PracticeWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\PracticeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Driver_License\\PracticeWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\PracticeWindow.xaml.cs",
+              "RelativeToolTip": "Driver_License\\PracticeWindow.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwC8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T17:26:46.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DoExamWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\DoExamWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Driver_License\\DoExamWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\DoExamWindow.xaml.cs",
+              "RelativeToolTip": "Driver_License\\DoExamWindow.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T17:25:15.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExamDetailsWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\ExamDetailsWindow.xaml",
+              "RelativeDocumentMoniker": "Driver_License\\ExamDetailsWindow.xaml",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\ExamDetailsWindow.xaml",
+              "RelativeToolTip": "Driver_License\\ExamDetailsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T17:25:11.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoExamWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\DoExamWindow.xaml",
+              "RelativeDocumentMoniker": "Driver_License\\DoExamWindow.xaml",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\DoExamWindow.xaml",
+              "RelativeToolTip": "Driver_License\\DoExamWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T17:25:08.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ListSettingWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\ListSettingWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Driver_License\\ListSettingWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\ListSettingWindow.xaml.cs",
+              "RelativeToolTip": "Driver_License\\ListSettingWindow.xaml.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAwwGUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T17:19:03.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListExamWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\ListExamWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Driver_License\\ListExamWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\ListExamWindow.xaml.cs",
+              "RelativeToolTip": "Driver_License\\ListExamWindow.xaml.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAkwFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T17:13:55.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ExamDetailsWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\ExamDetailsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Driver_License\\ExamDetailsWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\ExamDetailsWindow.xaml.cs",
+              "RelativeToolTip": "Driver_License\\ExamDetailsWindow.xaml.cs",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAAAOAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T17:13:11.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SupportLicenseContext.cs",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\Models\\SupportLicenseContext.cs",
+              "RelativeDocumentMoniker": "Driver_License\\Models\\SupportLicenseContext.cs",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\Models\\SupportLicenseContext.cs",
+              "RelativeToolTip": "Driver_License\\Models\\SupportLicenseContext.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAgwCoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T17:11:25.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Driver_License\\Models\\Account.cs",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\Models\\Account.cs",
+              "RelativeToolTip": "Driver_License\\Models\\Account.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T17:11:22.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ListAccountWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\ListAccountWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Driver_License\\ListAccountWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\ListAccountWindow.xaml.cs",
+              "RelativeToolTip": "Driver_License\\ListAccountWindow.xaml.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAUwDwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T17:10:31.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ListAccountWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\ListAccountWindow.xaml",
+              "RelativeDocumentMoniker": "Driver_License\\ListAccountWindow.xaml",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\ListAccountWindow.xaml",
+              "RelativeToolTip": "Driver_License\\ListAccountWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T17:10:17.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Driver_License",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\Driver_License.csproj",
+              "RelativeDocumentMoniker": "Driver_License\\Driver_License.csproj",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\Driver_License.csproj",
+              "RelativeToolTip": "Driver_License\\Driver_License.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-19T17:08:49.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SignupWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\SignupWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Driver_License\\SignupWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\SignupWindow.xaml.cs",
+              "RelativeToolTip": "Driver_License\\SignupWindow.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAEkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T17:08:42.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PenalizeWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212\\Driver_License\\Driver_License\\PenalizeWindow.xaml",
+              "RelativeDocumentMoniker": "Driver_License\\PenalizeWindow.xaml",
+              "ToolTip": "D:\\PRN212\\Driver_License\\Driver_License\\PenalizeWindow.xaml",
+              "RelativeToolTip": "Driver_License\\PenalizeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T17:08:39.372Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 132,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

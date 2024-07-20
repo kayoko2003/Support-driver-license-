@@ -1,0 +1,42 @@
+﻿<Window x:Class="Driver_License.PenalizeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Driver_License"
+        mc:Ignorable="d"
+        Title="Các mức xử phạt" Height="579" Width="400"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Background="#1b7a90" VerticalAlignment="Top" Height="50">
+            <Button x:Name="btnBack" Width="auto" Height="30" Click="BtnBack_Click" Background="Transparent" BorderThickness="0" VerticalAlignment="Center" Margin="10,0">
+                <Image Source="Images/Icon/Back.png" Width="20" Height="30"/>
+            </Button>
+            <TextBlock Text="Các mức xử phạt" VerticalAlignment="Center" Foreground="White" FontSize="16" FontWeight="Bold" Margin="10,0"/>
+        </StackPanel>
+
+        <DataGrid x:Name="PenalizeDataGrid" AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding Penalizes}" Margin="10" Grid.Row="1" ScrollViewer.VerticalScrollBarVisibility="Hidden">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Nội dung" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Content}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Mức phạt" Width="150">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Fines}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

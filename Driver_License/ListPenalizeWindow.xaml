@@ -1,0 +1,67 @@
+﻿<Window x:Class="Driver_License.ListPenalizeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Driver_License"
+        mc:Ignorable="d"
+        Title="ListPenalizeWindow"  Height="579" Width="400"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Background="#1b7a90" VerticalAlignment="Top" Height="50">
+            <Button x:Name="btnBack" Width="auto" Height="30" Click="BtnBack_Click" Background="Transparent" BorderThickness="0" VerticalAlignment="Center" Margin="10,0">
+                <Image Source="Images/Icon/Back.png" Width="20" Height="30"/>
+            </Button>
+            <TextBlock Text="Danh sách các mức phạt" VerticalAlignment="Center" Foreground="White" FontSize="16" FontWeight="Bold" Margin="10,0"/>
+            <Button x:Name="btnAdd" Width="auto" Height="30" Click="BtnAdd_Click" Background="Transparent" BorderThickness="0" VerticalAlignment="Center" Margin="120,0">
+                <Image Source="Images/Icon/Add.png" Width="25" Height="30"/>
+            </Button>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="1" Height="50">
+            <TextBox x:Name="search" Grid.Row="2" Height="30" HorizontalAlignment="Center" Width="185" TextChanged="TextBox_TextChanged"></TextBox>
+            <ComboBox Name="cbLicenseType" Height="30" SelectionChanged="cbType_SelectionChanged" Margin="5,0,0,0" RenderTransformOrigin="0.5,0.5" Width="185"/>
+        </StackPanel>
+
+        <DataGrid x:Name="PenalizeGrid" AutoGenerateColumns="False" IsReadOnly="True" Margin="10" Grid.Row="3" ScrollViewer.VerticalScrollBarVisibility="Hidden">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="ID" Width="30">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding PenalizeId}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Nội dung" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Content}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Phân loại" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding LicenseType.Name}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="30">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="DetailsButton_Click">
+                                <Image Source="Images/Icon/Pencil.png" Width="auto" Height="auto"/>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

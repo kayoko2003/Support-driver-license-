@@ -1,0 +1,98 @@
+﻿<Window x:Class="Driver_License.PracticeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Driver_License"
+        mc:Ignorable="d"
+            Title="DoExamWindow" Height="579" Width="400"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="30"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="20"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Column="0" Grid.RowSpan="2" x:Name="btnBack" Width="auto" Height="30" Click="BtnBack_Click" Background="Transparent" BorderThickness="0">
+                <Image Source="Images/Icon/Back.png" Width="30" Height="30"/>
+            </Button>
+            <Button Grid.Column="2" Grid.RowSpan="2" x:Name="btnNext" Width="30" Height="30" Click="BtnNext_Click" Background="Transparent" BorderThickness="0">
+                <Image Source="Images/Icon/Next.png" Width="30" Height="30"/>
+            </Button>
+
+            <StackPanel Orientation="Vertical" Grid.Column="1">
+                <Label x:Name="questionNumber" HorizontalAlignment="Center" FontSize="15" FontWeight="Bold"/>
+                <Image x:Name="questionImg" Width="auto" Height="150"/>
+                <TextBlock x:Name="questionContent" Margin="20,20,20,10" Width="auto" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="WrapWithOverflow"/>
+            </StackPanel>
+            <Button Grid.Column="1" Grid.Row="1" Content="Nộp Bài" x:Name="btnSubmit" Width="100"  Click="BtnSubmit_Click" Background="DimGray" BorderThickness="0" Visibility="Collapsed" />
+            <Button Grid.Column="1" Grid.Row="1" Content="Làm lại" x:Name="btnDoAgain" Width="100"  Click="BtnDoAgain_Click" Background="DimGray" BorderThickness="0" Visibility="Collapsed"/>
+            <Button Grid.Column="1" Grid.Row="1" Content="Giải thích" x:Name="btnExplain" Width="100" HorizontalAlignment="Right"  Click="BtnExplain_Click" Background="Red" BorderThickness="0" Visibility="Collapsed"/>
+        </Grid>
+        <ListBox x:Name="dgLiencesType" Grid.Row="1" BorderThickness="0,3,0,0" BorderBrush="#1b7a90" Background="#195a73" SelectionMode="Single">
+            <ListBox.Resources>
+                <Style TargetType="ScrollViewer">
+                    <Setter Property="HorizontalScrollBarVisibility" Value="Hidden"/>
+                    <Setter Property="VerticalScrollBarVisibility" Value="Hidden"/>
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                </Style>
+                <Style TargetType="RadioButton">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="RadioButton">
+                                <Border Background="{TemplateBinding Background}" 
+                                        BorderBrush="{TemplateBinding BorderBrush}" 
+                                        BorderThickness="{TemplateBinding BorderThickness}" 
+                                        CornerRadius="10" Padding="5"
+                                        x:Name="border">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                      RecognizesAccessKey="True"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsChecked" Value="True">
+                                        <Setter TargetName="border" Property="Background" Value="#1b7a90"/>
+                                    </Trigger>
+                                    <DataTrigger Binding="{Binding UserSelected}" Value="False">
+                                        <Setter TargetName="border" Property="Background" Value="Red"/>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding UserSelected}" Value="True">
+                                        <Setter TargetName="border" Property="Background" Value="Green"/>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding UserSelected}" Value="Unselect">
+                                        <Setter TargetName="border" Property="Background" Value="Yellow"/>
+                                    </DataTrigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="Background" Value="#4A148C"/>
+                    <Setter Property="Foreground" Value="White"/>
+
+                </Style>
+            </ListBox.Resources>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <RadioButton GroupName="Answers" Width="300" Height="auto" Margin="5" Background="#4A148C" Foreground="White"
+                                 IsChecked="{Binding IsSelected, Mode=TwoWay, RelativeSource={RelativeSource AncestorType=ListBoxItem}}">
+                        <TextBlock Text="{Binding Content}" TextWrapping="Wrap" Margin="5,7,5,7"/>
+                    </RadioButton>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Grid>
+            <Button x:Name="ButtonOpenMenu" Height="35" Width="35" Margin="8" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FF31577E" Click="BtnOut_Click">
+                <Image Source="Images/Icon/Out.png"/>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
